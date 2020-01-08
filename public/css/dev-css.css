@@ -1,0 +1,11 @@
+#UpperHeaderCont {
+    background-image: url("/img/upperHeaderBG.png");
+    height: 35px;
+}
+
+.myr {
+    border: 1px dashed red;
+}
+.myc {
+    border: 1px dashed blue;
+}
