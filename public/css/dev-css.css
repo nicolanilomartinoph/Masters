@@ -1,11 +1,65 @@
-#UpperHeaderCont {
-    background-image: url("/img/upperHeaderBG.png");
-    height: 35px;
-}
-
 .myr {
     border: 1px dashed red;
 }
 .myc {
     border: 1px dashed blue;
+}
+
+#App {
+}
+
+#homepage {
+}
+
+#Page1 {
+    background-image: url("/img/HomepageBG.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    max-height: 1000px;
+    max-width: 2000px;
+}
+
+#Page2 {
+    background-image: url("/img/HomepageBG.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    max-height: 1000px;
+    max-width: 2000px;
+}
+
+#Page3 {
+    background-image: url("/img/HomepageBG.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    max-height: 1000px;
+    max-width: 2000px;
+}
+
+#UpperHeaderCont {
+    background-image: url("/img/upperHeaderBG.png");
+    height: 40px;
+    color: #c6c6c6;
+}
+
+.UpperHeaderText {
+    color: #c6c6c6;
+}
+
+#downArrow {
+    height: 20px;
+    width: 30px;
+}
+/* --------------- NAVBAR --------------- */
+
+#NavBarCont {
+    height: 200px;
 }
