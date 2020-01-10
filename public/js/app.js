@@ -51603,9 +51603,66 @@ function (_React$Component) {
     key: "render",
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "row myr",
+        className: "row no-gutter mt-5 mx-auto",
         id: "NavBarCont"
-      });
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-12"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        className: "",
+        src: "/img/navbar/masterLogo.png",
+        id: "masterLogo"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "d-flex"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "nvbut",
+        id: "emptySpace"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "nvbut d-flex justify-content-center flex-column",
+        id: "gameCont"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "d-flex justify-content-center"
+      }, "GAME")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "nvbut d-flex justify-content-center flex-column",
+        id: "newsCont"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "d-flex justify-content-center"
+      }, "NEWS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "nvbut d-flex justify-content-center flex-column",
+        id: "forumCont"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "d-flex justify-content-center"
+      }, "FORUM")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "nvbut d-flex justify-content-center flex-column",
+        id: "storeCont"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "d-flex justify-content-center"
+      }, "STORE")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "nvbut d-flex justify-content-center flex-column",
+        id: "concertCont"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "d-flex justify-content-center"
+      }, "CONCERT")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "nvbut d-flex justify-content-center flex-column",
+        id: "sinewaveCont"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "d-flex justify-content-center"
+      }, "SINEWAVE")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "nvbut d-flex justify-content-center flex-column",
+        id: "searchCont"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+        className: "fa fa-search",
+        id: "searchIcon"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "nvbut d-flex justify-content-center flex-column",
+        id: "loginCont"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "d-flex justify-content-center"
+      }, "LOG IN")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "nvbut d-flex justify-content-center flex-column",
+        id: "registerCont"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "d-flex justify-content-center"
+      }, "REGISTER")))));
     }
   }]);
 
@@ -51617,6 +51674,10 @@ function (_React$Component) {
 if (document.getElementById('NavbarCont')) {
   react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(NavbarCont, null), document.getElementById('NavbarCont'));
 }
+/*
+
+
+                        */
 
 /***/ }),
 

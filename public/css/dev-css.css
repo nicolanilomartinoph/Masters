@@ -61,5 +61,81 @@
 /* --------------- NAVBAR --------------- */
 
 #NavBarCont {
-    height: 200px;
+    height: 80px;
+    width: 1100px;
+    max-width: 1920px;
+    background-image: url("/img/navbar/NavbarCont.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.nvbut {
+    height: 78px;
+    margin: 1px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#searchIcon {
+    font-size: 25px;
+}
+
+.nvbut span {
+    font-family: sans-serif;
+    background: linear-gradient(#ccb578, #bda664 25%, #8d6d1e 60%, #76580e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 16px;
+    font-weight: 1000;
+}
+
+#masterLogo {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: -50px;
+    top: -30px;
+}
+
+#emptySpace {
+    background-image: url("/img/navbar/emptySpace.png");
+    width: 9.9%;
+}
+#gameCont {
+    background-image: url("/img/navbar/newsCont.png");
+    width: 9.9%;
+}
+#newsCont {
+    background-image: url("/img/navbar/newsCont.png");
+    width: 9.9%;
+}
+#forumCont {
+    background-image: url("/img/navbar/forumCont.png");
+    width: 9.9%;
+}
+#storeCont {
+    background-image: url("/img/navbar/storeCont.png");
+    width: 9.9%;
+}
+#concertCont {
+    background-image: url("/img/navbar/concertCont.png");
+    width: 9.9%;
+}
+#sinewaveCont {
+    background-image: url("/img/navbar/sinewaveCont.png");
+    width: 9.9%;
+}
+#searchCont {
+    background-image: url("/img/navbar/searchCont.png");
+    width: 10.2%;
+}
+#loginCont {
+    background-image: url("/img/navbar/loginCont.png");
+    width: 9.9%;
+}
+#registerCont {
+    background-image: url("/img/navbar/registerCont.png");
+    width: 9.9%;
 }
