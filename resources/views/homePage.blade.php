@@ -1,5 +1,5 @@
 @extends('layouts.app')
 
-@section('homePage')
+@section('content')
     <div className="container-fluid bg-dark" id="Homepage"></div>
 @endsection

@@ -69759,7 +69759,7 @@ function (_React$Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         className: "d-flex justify-content-center"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "{{ route('login') }}"
+        href: "/test"
       }, "LOG IN"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "nvbut d-flex justify-content-center flex-column",
         id: "registerCont"
@@ -70078,12 +70078,52 @@ function (_React$Component) {
     key: "render",
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "container"
+        className: "row",
+        id: "loginPage"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "row"
+        className: "container",
+        id: "loginPageCont"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "row justify-content-center"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "/img/masterLogo.png"
-      })));
+        className: "mt-lg-4",
+        src: "/img/navbar/masterLogo.png"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "w-100"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
+        className: "col-5 justify-content-center"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "row mt-lg-5 mt-1"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+        type: "email",
+        placeholder: "Email or Username",
+        className: "col-12 my-3",
+        id: "usernameInput"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+        type: "password",
+        placeholder: "Password",
+        className: "col-12 my-3",
+        id: "passwordInput"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+        type: "submit",
+        className: "w-100 mt-3",
+        id: "loginButton"
+      }, "Log In"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "w-100"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
+        className: "col-5 justify-content-center mt-4"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "row justify-content-center"
+      }, "OR LOG IN WITH "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "row mt-3"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-5 mx-auto fa fa-facebook-official text-center"
+      }, " ", "Facebook"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-5 myr mx-auto text-center"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "/img/google-icon.png",
+        id: "google-icon"
+      }), "Google"))))));
     }
   }]);
 

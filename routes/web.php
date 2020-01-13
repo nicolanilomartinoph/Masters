@@ -17,12 +17,11 @@ Route::get('/', function () {
     return view('homePage');
 });
 
-Route::get('/login', function () {
-    return view('homePage');
+Route::get('/test', function () {
+    return view('loginPage');
 });
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home')->middleware('auth');
 
-/* ive devided, re-render the App component inside another parent blade template which is called by the routes */

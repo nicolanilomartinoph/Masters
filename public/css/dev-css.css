@@ -261,3 +261,48 @@
     -webkit-transition: 1s;
     transition: 1s;
 }
+
+/* LOGIN PAGE */
+
+#loginPage {
+    background: rgb(19, 19, 19);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#loginPageCont {
+    height: 100vh;
+    width: 100vh;
+}
+
+
+
+#usernameInput {
+    background: rgba(6, 4, 31, 0.3);
+    border: 1px solid black;
+    color: white;
+}
+
+#passwordInput {
+    background: rgba(6, 4, 31, 0.3);
+    border: 1px solid black;
+    color: white;
+}
+
+#loginButton {
+    background: rgb(56, 147, 250);
+    border: 1px solid black;
+}
+
+.fa-facebook-official {
+    color: white;
+    font-size: 20px;
+    line-height: 40px;
+    background: rgb(56, 147, 250);
+}
+
+#google-icon {
+    width: 20px;
+    height: 20px;
+}
