@@ -70,7 +70,8 @@
         </style>
     </head>
     <body>
-        <div id="App"></div>
+        @yield('homePage')
+        @yield('loginPage')
     </body>
     <script src="{{asset('js/app.js')}}" ></script>
 </html>
