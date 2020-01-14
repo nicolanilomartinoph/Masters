@@ -70078,7 +70078,6 @@ function (_React$Component) {
     key: "render",
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "row",
         id: "loginPage"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "container",
@@ -70090,9 +70089,9 @@ function (_React$Component) {
         src: "/img/navbar/masterLogo.png"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "w-100"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "col-5 justify-content-center"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
         className: "row mt-lg-5 mt-1"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
         type: "email",
@@ -70110,20 +70109,65 @@ function (_React$Component) {
         id: "loginButton"
       }, "Log In"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "w-100"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "col-5 justify-content-center mt-4"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "row justify-content-center"
       }, "OR LOG IN WITH "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "row mt-3"
+        className: "row no-gutter justify-content-between mt-3"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-5 mx-auto fa fa-facebook-official text-center"
-      }, " ", "Facebook"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-5 myr mx-auto text-center"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        className: "col-5 fa fa-facebook-official text-center"
+      }, " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        id: "facebook-text"
+      }, "Facebook")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-5 text-center my-auto",
+        id: "google-icon-cont"
+      }, " ", " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "/img/google-icon.png",
         id: "google-icon"
-      }), "Google"))))));
+      }), " Google"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "w-100"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "row mt-3"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-12 light-blue-text"
+      }, "Create a free Masters Account")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "w-100"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "row mt-3"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-12 light-blue-text"
+      }, "Can't log in?")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "w-100"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "row justify-content-center loginFooter"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-2 text-center footerItems my-auto"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "#"
+      }, "Masters' EULA")), "|", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-2 text-center footerItems my-auto"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "#"
+      }, "PRIVACY")), "|", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-2 text-center footerItems my-auto"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "#"
+      }, "TERMS")), "|", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-3 text-center footerItems my-auto"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "#"
+      }, "COPYRIGHT INFRINGEMENT")), "|", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-2 text-center footerItems my-auto"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "#"
+      }, "COOKIES")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "w-100"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "row mt-3"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-12 justify-content-center"
+      }, "\xA92020 MASTERS , INC. ALL RIGHTS RESERVED.")))));
     }
   }]);
 

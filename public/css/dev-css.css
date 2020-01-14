@@ -5,10 +5,12 @@
     border: 1px dashed blue;
 }
 
-#App {
-}
-
-#homepage {
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100px;
+    width: 100%;
 }
 
 #Page1 {
@@ -109,21 +111,186 @@
     -webkit-text-fill-color: transparent;
     animation-name: filluptext;
     animation-fill-mode: forwards;
-    animation-duration: 0.10s;
+    animation-duration: 0.1s;
 }
 
 @keyframes filluptext {
-    100% {background: linear-gradient(#424242 0%, #424242 10%, #424242 30%, #424242 40%, #424242 50%, #424242 60%, #424242 70%, #424242 80%, #424242 90%, #424242  100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
-    90%  {background: linear-gradient(#ccb578 0%, #424242 10%, #424242 30%, #424242 40%, #424242 50%, #424242 60%, #424242 70%, #424242 80%, #424242 90%, #424242  100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
-    80%  {background: linear-gradient(#ccb578 0%, #af995d 10%, #424242 30%, #424242 40%, #424242 50%, #424242 60%, #424242 70%, #424242 80%, #424242 90%, #424242  100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
-    70%  {background: linear-gradient(#ccb578 0%, #af995d 10%, #9c8647 30%, #424242 40%, #424242 50%, #424242 60%, #424242 70%, #424242 80%, #424242 90%, #424242  100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
-    60%  {background: linear-gradient(#ccb578 0%, #af995d 10%, #9c8647 30%, #816b2f 40%, #424242 50%, #424242 60%, #424242 70%, #424242 80%, #424242 90%, #424242  100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
-    50%  {background: linear-gradient(#ccb578 0%, #af995d 10%, #9c8647 30%, #816b2f 40%, #6e5920 50%, #424242 60%, #424242 70%, #424242 80%, #424242 90%, #424242  100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
-    40%  {background: linear-gradient(#ccb578 0%, #af995d 10%, #9c8647 30%, #816b2f 40%, #6e5920 50%, #6e5920 60%, #424242 70%, #424242 80%, #424242 90%, #424242  100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
-    30%  {background: linear-gradient(#ccb578 0%, #af995d 10%, #9c8647 30%, #816b2f 40%, #6e5920 50%, #6e5920 60%, #7c6524 70%, #424242 80%, #424242 90%, #424242  100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
-    20%  {background: linear-gradient(#ccb578 0%, #af995d 10%, #9c8647 30%, #816b2f 40%, #6e5920 50%, #6e5920 60%, #7c6524 70%, #725b1e 80%, #424242 90%, #424242  100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
-    10%  {background: linear-gradient(#ccb578 0%, #af995d 10%, #9c8647 30%, #816b2f 40%, #6e5920 50%, #6e5920 60%, #7c6524 70%, #725b1e 80%, #6d5618 90%, #424242  100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
-    0%   {background: linear-gradient(#ccb578 0%, #af995d 10%, #9c8647 30%, #816b2f 40%, #6e5920 50%, #6e5920 60%, #7c6524 70%, #725b1e 80%, #6d5618 90%, #76580e  100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
+    100% {
+        background: linear-gradient(
+            #424242 0%,
+            #424242 10%,
+            #424242 30%,
+            #424242 40%,
+            #424242 50%,
+            #424242 60%,
+            #424242 70%,
+            #424242 80%,
+            #424242 90%,
+            #424242 100%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    90% {
+        background: linear-gradient(
+            #ccb578 0%,
+            #424242 10%,
+            #424242 30%,
+            #424242 40%,
+            #424242 50%,
+            #424242 60%,
+            #424242 70%,
+            #424242 80%,
+            #424242 90%,
+            #424242 100%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    80% {
+        background: linear-gradient(
+            #ccb578 0%,
+            #af995d 10%,
+            #424242 30%,
+            #424242 40%,
+            #424242 50%,
+            #424242 60%,
+            #424242 70%,
+            #424242 80%,
+            #424242 90%,
+            #424242 100%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    70% {
+        background: linear-gradient(
+            #ccb578 0%,
+            #af995d 10%,
+            #9c8647 30%,
+            #424242 40%,
+            #424242 50%,
+            #424242 60%,
+            #424242 70%,
+            #424242 80%,
+            #424242 90%,
+            #424242 100%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    60% {
+        background: linear-gradient(
+            #ccb578 0%,
+            #af995d 10%,
+            #9c8647 30%,
+            #816b2f 40%,
+            #424242 50%,
+            #424242 60%,
+            #424242 70%,
+            #424242 80%,
+            #424242 90%,
+            #424242 100%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    50% {
+        background: linear-gradient(
+            #ccb578 0%,
+            #af995d 10%,
+            #9c8647 30%,
+            #816b2f 40%,
+            #6e5920 50%,
+            #424242 60%,
+            #424242 70%,
+            #424242 80%,
+            #424242 90%,
+            #424242 100%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    40% {
+        background: linear-gradient(
+            #ccb578 0%,
+            #af995d 10%,
+            #9c8647 30%,
+            #816b2f 40%,
+            #6e5920 50%,
+            #6e5920 60%,
+            #424242 70%,
+            #424242 80%,
+            #424242 90%,
+            #424242 100%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    30% {
+        background: linear-gradient(
+            #ccb578 0%,
+            #af995d 10%,
+            #9c8647 30%,
+            #816b2f 40%,
+            #6e5920 50%,
+            #6e5920 60%,
+            #7c6524 70%,
+            #424242 80%,
+            #424242 90%,
+            #424242 100%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    20% {
+        background: linear-gradient(
+            #ccb578 0%,
+            #af995d 10%,
+            #9c8647 30%,
+            #816b2f 40%,
+            #6e5920 50%,
+            #6e5920 60%,
+            #7c6524 70%,
+            #725b1e 80%,
+            #424242 90%,
+            #424242 100%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    10% {
+        background: linear-gradient(
+            #ccb578 0%,
+            #af995d 10%,
+            #9c8647 30%,
+            #816b2f 40%,
+            #6e5920 50%,
+            #6e5920 60%,
+            #7c6524 70%,
+            #725b1e 80%,
+            #6d5618 90%,
+            #424242 100%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    0% {
+        background: linear-gradient(
+            #ccb578 0%,
+            #af995d 10%,
+            #9c8647 30%,
+            #816b2f 40%,
+            #6e5920 50%,
+            #6e5920 60%,
+            #7c6524 70%,
+            #725b1e 80%,
+            #6d5618 90%,
+            #76580e 100%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 }
 
 #masterLogo {
@@ -276,8 +443,6 @@
     width: 100vh;
 }
 
-
-
 #usernameInput {
     background: rgba(6, 4, 31, 0.3);
     border: 1px solid black;
@@ -293,16 +458,88 @@
 #loginButton {
     background: rgb(56, 147, 250);
     border: 1px solid black;
+    height: 40px;
+    color: white;
+    font-weight: 900;
 }
 
 .fa-facebook-official {
     color: white;
-    font-size: 20px;
+    font-size: 23px;
     line-height: 40px;
+
     background: rgb(56, 147, 250);
 }
 
+#facebook-text {
+    font-family: sans-serif;
+}
+
 #google-icon {
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
+    color: white;
+    background: rgb(56, 147, 250);
+}
+
+.light-blue-text {
+    color: rgb(125, 186, 255);
+}
+
+#google-icon-cont {
+    line-height: 40px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    background: rgb(56, 147, 250);
+}
+
+.loginFooter {
+    margin-top: 150px;
+    color: white;
+}
+
+.footerItems {
+    color: white;
+}
+
+#create_an_account {
+    font-size: 40px;
+}
+
+/* REGISTER PAGE */
+
+#registerMasterLogo {
+    width: 150px;
+    height: 150px;
+}
+
+#create_an_account {
+    color: white;
+    font-size: 30px;
+}
+
+.registerCheckbox {
+    position: relative;
+    left: 5%;
+    font-size: 15px;
+    color: white;
+}
+
+#create_a_free_account {
+    height: 4vh;
+    color: white;
+    background: rgb(125, 186, 255);
+    border: 2px solid rgb(46, 107, 177);
+}
+
+#already_have_an_account {
+    height: 4vh;
+    color: rgb(125, 186, 255);
+    background: rgba(0, 17, 36, 0.5);
+    border: 2px solid rgb(46, 107, 177);
+}
+
+.footerSeparator {
+    color: rgb(19, 19, 19);
 }
