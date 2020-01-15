@@ -41,12 +41,12 @@ class NavbarCont extends React.Component {
                                 </div>
                                 <div className="nvbut d-flex justify-content-center flex-column" id="loginCont">
                                     <span className="d-flex justify-content-center">
-                                        <a href="/test">LOG IN</a>
+                                        <a href="/login">LOG IN</a>
                                     </span>
                                 </div>
                                 <div className="nvbut d-flex justify-content-center flex-column" id="registerCont">
                                     <span className="d-flex justify-content-center">
-                                        <a href="{{ route('register') }}">REGISTER</a>
+                                        <a href="/register">REGISTER</a>
                                     </span>
                                 </div>
                             </div>

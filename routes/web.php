@@ -11,17 +11,10 @@
 |
 */
 
-
-
 Route::get('/', function () {
     return view('homePage');
 });
 
-Route::get('/test', function () {
-    return view('loginPage');
-});
-
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home')->middleware('auth');
-
+Route::get('/home', 'HomeController@index')->name('dashboard');

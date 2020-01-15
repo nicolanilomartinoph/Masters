@@ -5,14 +5,6 @@
     border: 1px dashed blue;
 }
 
-html,
-body {
-    margin: 0;
-    padding: 0;
-    height: 100px;
-    width: 100%;
-}
-
 #Page1 {
     background-image: url("/img/HomepageBG.png");
     background-repeat: no-repeat;
@@ -431,13 +423,6 @@ body {
 
 /* LOGIN PAGE */
 
-#loginPage {
-    background: rgb(19, 19, 19);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
 #loginPageCont {
     height: 100vh;
     width: 100vh;
@@ -449,7 +434,7 @@ body {
     color: white;
 }
 
-#passwordInput {
+.passwordInput {
     background: rgba(6, 4, 31, 0.3);
     border: 1px solid black;
     color: white;
@@ -509,6 +494,15 @@ body {
 
 /* REGISTER PAGE */
 
+.darkbg {
+    background: rgb(1, 16, 34);
+}
+
+.registerInputbg {
+    background-color: rgba(0, 21, 47, 0.5);
+    border: none;
+}
+
 #registerMasterLogo {
     width: 150px;
     height: 150px;
@@ -521,7 +515,7 @@ body {
 
 .registerCheckbox {
     position: relative;
-    left: 5%;
+    left: 3%;
     font-size: 15px;
     color: white;
 }

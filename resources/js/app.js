@@ -12,5 +12,5 @@ require('./bootstrap');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-require('./components/homepage/HomePage')
-require('./components/loginpage/LoginPage')
+require('./components/homepage/HomePage');
+
