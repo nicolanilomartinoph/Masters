@@ -13,7 +13,7 @@ class UpperHeaderCont extends React.Component {
 
     render() {
         return (
-            <div className="row" id="UpperHeaderCont">
+            <div className="row d-xl-block d-none" id="UpperHeaderCont">
                 <div className="col-2 col-md-2 col-lg-2 col-xl-1 offset-6 offset-md-7 offset-lg-8 offset-xl-9 my-auto">
                     <Support />
                 </div>

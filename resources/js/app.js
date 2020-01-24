@@ -13,4 +13,8 @@ require('./bootstrap');
  */
 
 require('./components/homepage/HomePage');
+require('./components/dashboard/DBCont');
+
+
+
 

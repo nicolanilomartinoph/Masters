@@ -11,7 +11,7 @@ class RightPane extends React.Component {
 
     render() {
         return (
-            <img className="img-fluid mx-0 mt-xl-0 mt-5" src="./img/hpbodyphoto.png" id="hpbodyphoto" />
+            <img className="col-xl-12 col-6 mx-0 mt-xl-0 mt-5 hover_transform " src="./img/hpbodyphoto.png" id="musicians5" />
         );
     }
 }

@@ -18,7 +18,9 @@ class HomepageBody extends React.Component {
                     <LeftPane />
                 </div>
                 <div className="col-xl-6 col-lg-12">
-                    <RightPane />
+                    <div className="d-flex justify-content-center">
+                        <RightPane />
+                    </div>
                 </div>
             </>
         );

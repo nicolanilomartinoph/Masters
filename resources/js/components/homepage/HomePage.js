@@ -16,10 +16,6 @@ class Homepage extends React.Component {
         return (
             <div className="row" id="homepage">
                 <Page1 />
-                <div className="w-100"></div>
-                <Page2 />
-                <div className="w-100"></div>
-                <Page3 />
             </div>
         );
     }
