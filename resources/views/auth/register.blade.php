@@ -1,6 +1,8 @@
 @extends('layouts.app')
 
 @section('content')
+<link rel="stylesheet" type="text/css" href="/css/register.css" />
+
 <div class="container-fluid darkbg" > 
 <div class="container bg-dark">
     <div class="row">
@@ -13,10 +15,10 @@
         </div>
     </div>
     <div class="row justify-content-around mt-3">
-        <a href="#" class="col-5 fa fa-facebook-official text-center">
-            <span id="facebook-text"> Facebook</span>
+        <a href="#" class="col-5 fa fa-facebook-official text-center text-light regnlogAPI" id="facebook-icon">
+            Facebook
         </a>
-        <a href="#" class="col-5 text-center my-auto" id="google-icon-cont">
+        <a href="#" class="col-5 text-center fa text-light my-auto regnlogAPI" >
             <img src="/img/google-icon.png" id="google-icon" /> 
             Google
         </a>
@@ -57,7 +59,7 @@
                 </div>
                 <div class="col-12 my-2">
                     <div class="row justify-content-between">
-                        <div class="w-auto mx-3">
+                        <div class="col-4">
                             <input id="month" type="text" class="registerInputbg form-control @error('month') is-invalid @enderror" name="month" value="{{ old('month') }}" required autocomplete="name"  placeholder="MM"autofocus>
                             @error('month')
                                 <span class="invalid-feedback" role="alert">
@@ -65,7 +67,7 @@
                                 </span>
                             @enderror
                         </div>
-                        <div class="w-auto">
+                        <div class="col-4">
                             <input id="day" type="text" class="registerInputbg form-control @error('day') is-invalid @enderror" name="day" value="{{ old('day') }}" required autocomplete="name"  placeholder="DD"autofocus>
                             @error('day')
                                 <span class="invalid-feedback" role="alert">
@@ -73,7 +75,7 @@
                                 </span>
                             @enderror
                         </div>
-                        <div class="w-auto mx-3">
+                        <div class="col-4">
                             <input id="year" type="text" class="registerInputbg form-control @error('year') is-invalid @enderror" name="year" value="{{ old('year') }}" required autocomplete="name"  placeholder="YYYY"autofocus>
                             @error('year')
                                 <span class="invalid-feedback" role="alert">
@@ -124,12 +126,15 @@
                         </span>
                     @enderror
                 </div>
-                <div class="registerCheckbox form-group">
-                    <div class="form-check">
-                        <input type="checkbox" class="form-check-input" name="newsAndSpecial">
-                        <label class="form-check-label" for="newsAndSpecial">Receive news and special offers from Masters by email.</label>
+                <div class="row">
+                    <div class="registerCheckbox form-group">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="newsAndSpecial">
+                            <label class="form-check-label" id="checkbox_text" for="newsAndSpecial">&nbsp Receive news and special offers from Masters by email.</label>
+                        </div>
                     </div>
                 </div>
+
                 <div>
                     <p class="registerCheckbox">Carefully selected news, event information and special offer about Masters product and services.</p>
                 </div>
@@ -147,7 +152,7 @@
     </div>
         <div class="row text-center my-5">
             <div class="col-12">
-                <h4><pre class="text-light">CAREERS  <span class="footerSeparator">|</span>  ABOUT  <span class="footerSeparator">|</span>  SUPPORT  <span class="footerSeparator">|</span>  CONTACT US  <span class="footerSeparator">|</span>  PRESS  <span class="footerSeparator">|</span>  API</pre></h4>
+                <h4><pre class="text-light bg-transparent border-0">CAREERS  <span class="footerSeparator">|</span>  ABOUT  <span class="footerSeparator">|</span>  SUPPORT  <span class="footerSeparator">|</span>  CONTACT US  <span class="footerSeparator">|</span>  PRESS  <span class="footerSeparator">|</span>  API</pre></h4>
             </div>
         </div>
         <div class="row text-center">
@@ -157,7 +162,7 @@
         <div class="row">
         <div class="col-12 text-center mb-5">
             <h5>
-                <pre class="text-light">PRIVACY    LEGAL   TERMS   COOKIES</pre>
+                <pre class="text-light bg-transparent border-0">PRIVACY    LEGAL   TERMS   COOKIES</pre>
             </h5>
         </div>
     </div>

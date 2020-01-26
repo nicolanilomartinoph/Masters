@@ -1,6 +1,11 @@
 @extends('layouts.app')
 
 @section('content')
+<link rel="stylesheet" type="text/css" href="/css/login.css" />
+<script>
+    document.body.style.background = "rgb(1, 16, 34)"
+</script>
+
 <div class="container-fluid darkbg" id="loginPage">
     <div class="container" id="loginPageCont">
         <div class="row justify-content-center">
@@ -10,7 +15,7 @@
                     <form class="row mt-lg-5 mt-1" method="POST" action="{{ route('login') }}">
                         @csrf 
 
-                        <input type="email" placeholder="Email or Username" class="col-12 my-3 form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}"
+                        <input type="email" placeholder="Email or Username" class="col-12 darkinputs my-3 form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}"
                         required autocomplete="email" autofocus id="usernameInput"></input>
 
                         @error('email')
@@ -19,7 +24,7 @@
                             </span>
                         @enderror
 
-                        <input id="password" type="password" class="col-12 my-3 passwordInput form-control @error('password') is-invalid @enderror" name="password" 
+                        <input id="password" type="password" class="col-12 my-3 darkinputs form-control @error('password') is-invalid @enderror" name="password" 
                         required autocomplete="current-password" placeholder="Password">
 
                                 @error('password')
@@ -28,11 +33,13 @@
                                     </span>
                                 @enderror
 
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
-                            <label class="form-check-label" for="remember">
-                                {{ __('Remember Me') }}
-                            </label>
+                        <div class="col-5 form-check">
+                            <div class="row">
+                                <input class="col-1 ml-2 form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
+                                <label class="col-11 ml-2 mt-1 form-check-label" for="remember">
+                                    {{ __('Remember Me') }}
+                                </label>
+                            </div>
                         </div>
 
                         @error('email')
@@ -46,19 +53,20 @@
 
                 <div class="w-100"></div>
                 
-                    <div class="col-5 justify-content-center mt-4">
+                    <div class="col-5 mx-auto mt-4">
                         <div class="row justify-content-center">
-                            OR LOG IN WITH
+                            <div class="col-12 text-center">OR LOG IN WITH</div>
                         </div>
                         <div class="row no-gutter justify-content-between mt-3">
-                            <div class="col-5 fa fa-facebook-official text-center">
-                                <span id="facebook-text"> Facebook</span>
+                            <div class="col-xl-5 my-2 fa fa-facebook-official text-center">
+                                Facebook
                             </div>
-                            <div class="col-5 text-center my-auto" id="google-icon-cont">
+                            <div class="col-xl-5 my-2 text-center my-auto" id="google-icon-cont">
                                 <img src="/img/google-icon.png" id="google-icon" /> 
                                 Google
                             </div>
                         </div>
+                    </div>
                     <div class="w-100"></div>
                         <div class="row mt-3">
                             <div class="col-12 light-blue-text text-center">
